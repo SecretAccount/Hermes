@@ -1,34 +1,49 @@
 div {
-	display: inline-block;
+    display: inline-block;
 }
 
 p {
-	padding: 4px;
+    padding: 4px;
 }
+
 agm-map {
-	height: 1000px;
+    height: 1000px;
 }
 
 .select {
-	border:1px solid; 
-	border-color: #455A64;
-	display: inline-block; 
-	padding: 8px;
-	margin: 4px;
-	float:left;
-	border-radius: 8px;
+    border: 1px solid;
+    border-color: #455A64;
+    display: inline-block;
+    padding: 8px;
+    margin: 4px;
+    float: left;
+    border-radius: 8px;
 }
 
 .itinerary {
-	border:1px solid; 
-	border-color: #455A64;
-	float:left;
-	padding: 4px;
-	border-radius: 16px;
-	width: 100%;
+    border: 1px solid;
+    border-color: #455A64;
+    float: left;
+    padding: 4px;
+    border-radius: 16px;
+    width: 100%;
 }
 
 .select.active {
-	background-color:#FFC107 !important;
-	color: white;
+    background-color: #FFC107 !important;
+    color: white;
+}
+
+#dest_map {
+    display: block;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    height: 500px;
+}
+
+.input-group {
+    display: block;
+    margin: 0 40%;
+    width: 20%;
 }

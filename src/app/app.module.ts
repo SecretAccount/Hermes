@@ -9,6 +9,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatStepperModule} from '@angular/material/stepper';
 
 import { AgmCoreModule } from '@agm/core'
+import {GooglePlaceModule} from "angular2-google-place"
+import {AngularGooglePlaceModule} from 'angular-google-place';
 
 
 import {
@@ -31,7 +33,7 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
   ],
   imports: [
     BrowserModule,
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule,
     MatToolbarModule,
     MatButtonModule,
@@ -39,8 +41,9 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     MatFormFieldModule,
     BrowserAnimationsModule,
     MatInputModule,
+    AngularGooglePlaceModule,
     AgmCoreModule.forRoot({
-    	apiKey: 'AIzaSyBgi9H_wWs3tWUajLTMS7Sc36A_jzku0sc'
+      apiKey: 'AIzaSyBgi9H_wWs3tWUajLTMS7Sc36A_jzku0sc',
     }),
     [NgxMaterialTimepickerModule.forRoot()]
   ],
